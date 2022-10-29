@@ -1,0 +1,28 @@
+.head_Padre {
+    background-color: rgb(53, 58, 64);
+}
+.bgColorGris {
+    background-color: rgb(53, 58, 64);
+}
+.justificadoF {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.bgColor {
+    background-color: rgb(224, 87, 226);
+}
+.colorFooter {
+    background-color: rgb(30, 68, 91);
+}
+.despl:hover {
+    color: rgb(176, 176, 176) !important;
+}
+.row {
+    align-items: center;
+}
+.row-xs-3 {
+}
+.col-sm-3 {
+    background-color: rgb(202, 244, 77);
+}

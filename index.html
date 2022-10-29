@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="./estilos.css">
+        <link rel="shortcut icon" href="./assets/images/codoacodo.png">
+        <title>Proyecto</title>
+    </head>
+    <body class="body">
+        <div class="head_Padre" id="la-conferencia">
+            <header class="container">
+                <nav class="navbar navbar-expand-lg bgColorGris">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-white" href="./index.html">
+                            <img src="./assets/images/codoacodo.png" alt="logo de codo a codo" loading="lazy" width="100">
+                            Conf Bs As
+                        </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justificadoF">
+                          <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="./index.html">La conferencia</a>
+                          </li>
+                          <li class="nav-item"><a class="nav-link text-muted hover" href="#los-oradores">Los oradores</a></li>
+                          <li class="nav-item"><a class="nav-link text-muted hover" href="#lugaryfecha">El lugar y la fecha</a></li>
+                          <li class="nav-item"><a class="nav-link text-muted hover" href="#conviertete-en-orador">Conviértete en orador</a></li>
+                          <li class="nav-item"><a class="nav-link text-muted hover" href="./comprar-tickets.html">Comprar tickets</a></li>
+                        </ul>
+                        
+                      </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+            <main>
+                <section class="position-relative sectionImgFondo">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/images/hawaii.jpg" class="d-block w-100 brillo" alt="paisaje Buenos Aires" loading="lazy">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/hawaii2.jpg" class="d-block w-100 brillo" alt="paisaje Bs As" loading="lazy">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/hawaii3.jpg" class="d-block w-100 brillo" alt="paisaje Bs As" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="position-absolute text-white text-end posicion textoI ">
+                            <h1 class="h1">Conf Bs As</h1>
+                            <p class="parrafo">Bs As llega por primera vez a Argentina. Un evento para
+                            compartir con nuestra comunidad el conocimiento y la
+                            experiencia de los expertos que están creando el futuro de
+                            internet. Ven a conocer a miembros del evento, a otros
+                            estudiantes de Codo a Codo y a los oradores de primer nivel
+                            que tenemos para ti. Te esperamos!</p>
+                            <div class="links">
+                                <a class="link1" href="">Quiero ser orador</a>
+                                <a class="link2" href="">Comprar tickets</a>
+                            </div>
+                        </div>
+                        <div class="position-absolute top-0 start-0 brillo">
+
+                        </div>   
+                    </div>
+                </section>
+            </main>
+            <section class="sectionTarjetas" id="los-oradores">
+                <div class="caja_vacia"></div>
+                <div class="tituloTarjeta">
+                    <h6 class="h6tarjeta">CONOCE A LOS</h6>
+                    <h2 class="h2tarjeta">ORADORES</h2>
+                </div>
+                <div class="tarjetas_flex">
+                    <div class="tarjeta1">
+                        <img class="img" src="./assets/images/steve.jpg" alt="imagen de Steve Jobs" loading="lazy">
+                        <div class="tarjetaContenido">
+                            <div class="anclaTitulo">
+                                <a class="linkTitulo1" href="">JavaScript</a>
+                                <a class="linkTitulo2" href="">React</a>
+                                <h3 class="titulo_oradores">Steve Jobs</h3>
+                            </div>
+                            <div class="tarjetaParrafo">
+                                <p class="parrafo_oradores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint corporis, aspernatur vitae cumque excepturi libero nostrum optio culpa ab eaque delectus distinctio. Commodi, nesciunt qui. Aliquam iure velit adipisci itaque.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta2">
+                        <img class="img" src="./assets/images/bill.jpg" alt="imagen de Bill Gates" loading="lazy">
+                        <div class="tarjetaContenido">
+                            <div class="anclaTitulo">
+                                <a class="linkTitulo1" href="">JavaScript</a>
+                                <a class="linkTitulo2" href="">React</a>
+                                <h3 class="titulo_oradores">Bill Gates</h3>
+                            </div>
+                            <div class="tarjetaParrafo">
+                                <p class="parrafo_oradores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint corporis, aspernatur vitae cumque excepturi libero nostrum optio culpa ab eaque delectus distinctio. Commodi, nesciunt qui. Aliquam iure velit adipisci itaque.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta3">
+                        <img class="img" src="./assets/images/ada.jpeg" alt="imagen de Ada Lovelace" loading="lazy">
+                        <div class="tarjetaContenido">
+                            <div class="anclaTitulo">
+                                <a class="linkTitulo3" href="">Negocios</a>
+                                <a class="linkTitulo4" href="">Startups</a>
+                                <h3 class="titulo_oradores">Ada Lovelace</h3>
+                            </div>
+                            <div class="tarjetaParrafo">
+                                    <p class="parrafo_oradores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint corporis, aspernatur vitae cumque excepturi libero nostrum optio culpa ab eaque delectus distinctio. Commodi, nesciunt qui. Aliquam iure velit adipisci itaque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <section class="section50" id="lugaryfecha">
+            <div class="caja_vacia50"></div>
+            <div class="container50">
+                <div class="img_50"></div>
+                <div class="texto_50">
+                    <h4 class="h4texto">Bs As - Octubre</h4>
+                    <p class="parrafo2">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km<sup>2</sup> de superficie).</p>
+                    <a class="en" href="">Conocé más</a>
+                </div>
+            </div>
+        </section>
+        <section class="tabla">
+            <table class="table text-center">
+                <thead>
+                  <tr>
+                    <th scope="col">Orador</th>
+                    <th scope="col">Dia</th>
+                    <th scope="col">Horario</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <td>Steve Jobs</td>
+                    <td>Lun. y Mie.</td>
+                    <td>18:30 a 20:00hs</td>
+                  </tr>
+                  <tr>
+                    <td>Bill Gates</td>
+                    <td>Mart. y Juev.</td>
+                    <td>18:30 a 20:00hs</td>
+                  </tr>
+                  <tr>
+                    <td>Ada Lovelace</td>
+                    <td>Lun. y Mie.</td>
+                    <td>10:00 a 11:30hs</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="text-start">
+                        <td colspan="3"><a class="text-decoration-none text-muted h" href="">Sacar Entradas</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        
+        <section class="sectionForm" id="conviertete-en-orador">
+            <div class="contenedorInterno">
+                <div class="tituloFormulario text-center">
+                    <p class="texto1">CONVIÉRTETE EN UN</p>
+                    <h2 class="texto2">ORADOR</h2>
+                    <p class="texto3">Anótate como orador para dar una <a class="text_enlace" href="">charla ignite</a>. Cuéntanos de qué quieres hablar!</p>
+                </div>
+                <form class="Formulario" action="">
+                    <div class="formHijo1">
+                        <input class="nombre" type="text" placeholder="Nombre">
+                        <input class="apellido" type="text" placeholder="Apellido">
+                    </div>
+                    <div class="formHijo2">
+                        <textarea class="text" name="" id="" cols="50" rows="5" placeholder="Sobre qué quieres hablar?"></textarea>
+                        <p class="recorda">Recuerda incluir un título para tu charla</p>
+                        <input class="enviar" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="colorFooter ">
+            <div class="containerF">
+                <div class="row text-center">
+                    <div class="col pt-4 pb-4"><a class="col-sm-3 text-white text-decoration-none despl fs-6 fuente" href="error404.html">Preguntas frecuentes</a></div>
+                    <div class="col pt-4 pb-4"><a class="col-sm-3 text-white text-decoration-none despl fs-6 fuente" href="error404.html">Contáctanos</a></div>
+                    <div class="col pt-4 pb-4"><a class="col-sm-3 text-white text-decoration-none despl fs-6 fuente" href="error404.html">Prensa</a></div>
+                    <div class="col pt-4 pb-4"><a class="col-sm-3 text-white text-decoration-none despl fs-6 fuente" href="error404.html">Conferencias</a></div>
+                    <div class="col pt-4 pb-4"><a class="col-sm-3 text-white text-decoration-none despl fs-6 fuente" href="error404.html">Términos y condiciones</a></div>
+                    <div class="col pt-4 pb-4"><a class="col-sm-3 text-white text-decoration-none despl fs-6 fuente" href="error404.html">Estudiantes</a></div>
+                    <div class="col pt-4 pb-4"><a class="col-sm-3 text-white text-decoration-none despl fs-6 fuente" href="error404.html">Privacidad</a></div>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

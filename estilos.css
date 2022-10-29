@@ -1,0 +1,1150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body {
+    width: 100%;
+    height: 500vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.head_Padre {
+    width: 100%;
+    background-color: rgb(53, 58, 64);
+    position: fixed;
+    z-index: 10;
+}
+
+.bgColorGris {
+    background-color: rgb(53, 58, 64);
+}
+
+.justificadoF {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.hover:hover {
+    color: rgb(188, 188, 188) !important;
+}
+.carousel-item {
+    height: 100vh;
+}
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+.brillo {
+    background-image: linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.5));
+    width: 100%;
+    height: 100vh;
+}
+.textoI {
+    z-index: 9;
+}
+.posicion {
+    width: 32%;
+    top: 50%;
+    left: 55%;
+}
+.link1:hover {
+    color: rgb(188, 188, 188) !important;
+}
+.link2:hover {
+    color: rgb(188, 188, 188) !important;
+}
+.link1, .link2 {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1rem;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.link1 {
+    border: 1px solid #fff;
+}
+.link2 {
+    background-color: rgb(41, 167, 68);
+}
+.sectionTarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    text-align: center;
+}
+.caja_vacia {
+    background-color: rgb(233, 216, 87);
+    width: 100%;
+    height: 13vh;
+    top: 0;
+}
+.tituloTarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15%;
+    padding-top: 1rem;
+}
+.h6tarjeta {
+    padding: 0.3rem;
+    font-size: 0.7rem;
+}
+.h2tarjeta {
+    font-size: 2rem;
+}
+.tarjetas_flex {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 70vh;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.tarjeta1, .tarjeta2, .tarjeta3 {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    height: 19vh;
+    border: 1px solid rgb(216, 221, 224);
+    border-radius: 4px;
+    box-shadow: -7px 0px 14px 6px rgba(0,0,0,0.48);
+    -webkit-box-shadow: -7px 0px 14px 6px rgba(0,0,0,0.48);
+    -moz-box-shadow: -7px 0px 14px 6px rgba(0,0,0,0.48);
+}
+.img {
+    width: 100%;
+    border-radius: 2px;
+}
+.tarjetaContenido {
+    height: 40vh;
+    padding: 1rem;
+}
+.anclaTitulo {
+    text-align: left;
+}
+.linkTitulo1, .linkTitulo2, .linkTitulo3, .linkTitulo4 {
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: rgb(32, 37, 41);
+    padding: 1px 2px;
+    background-color: rgb(255, 192, 6);
+    border-radius: 4px;
+}
+.linkTitulo2 {
+    color: #fff;
+    background-color:rgb(25, 161, 185);
+}
+.linkTitulo3 {
+    background-color: rgb(109, 118, 127);
+    color: #fff;
+}
+.linkTitulo4 {
+    background-color: rgb(223, 53, 66);
+    color: #fff;
+}
+.titulo_oradores {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(30, 38, 40);
+}
+.tarjetaParrafo {
+    width: 100%;
+    text-align: left;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    line-height: 1.8rem;
+}
+.parrafo_oradores {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: rgb(42, 42, 42);
+    
+}
+.section50 {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(53, 60, 66);
+}
+.container50 {
+    height: 57vh;
+    display: flex;
+    flex-direction: row;
+}
+.caja_vacia50 {
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(76, 75, 75);
+}
+
+.img_50 {
+    width: 55%;
+    height: 59vh;
+    background-image: url(./assets/images/honolulu.jpg);
+    background-size: cover;
+    background-color: pink;
+    display: flex;
+    border: #fff 1px solid;
+}
+.texto_50 {
+    width: 45%;
+    height: 59vh;
+    background-color: rgb(53, 60, 66);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: #fff 1px solid;
+}
+.h4texto{
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.parrafo2 {
+    color: #fff;
+    line-height: 28px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+.en {
+    width: 18%;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    padding: 8px 6px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.h:hover {
+    color: rgb(36, 36, 36) !important;
+}
+.sectionForm {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: 20vh;
+}
+.caja_vaciaForm {
+    width: 100%;
+    height: 16%;
+    background-color: rgb(76, 75, 75);
+}
+.contenedorInterno {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+.tituloFormulario {
+    display: flex;
+    width: 100%;
+    height: 21vh;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.texto1 {
+    font-size: 0.7rem;
+    padding: 3px;
+    background-color: rgb(243, 239, 113);
+}
+.texto2 {
+    font-size: 1.8rem;
+    padding: 3px;
+    background-color: rgb(123, 116, 250);
+}
+.texto3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.text_enlace {
+    text-decoration: none;
+    border-bottom: 2px dotted #000;
+}
+.Formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 58vh;
+    margin-top: 1rem;
+    background-color: rgb(94, 90, 223);
+}
+.formHijo1 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nombre, .apellido {
+    width: 48%;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+.nombre, .apellido, .text {
+    border-radius: 4px;
+    border: 1px solid rgb(201, 201, 201);
+}
+.nombre {
+    margin-right: 1.6rem;
+}
+.formHijo2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.recorda {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: rgb(222, 222, 222);
+}
+.enviar {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(150, 201, 62);
+    border-radius: 4px;
+    font-size: 1rem;
+    border: 1px solid rgb(150, 201, 62);
+}
+.colorFooter {
+    height: 19vh;
+    background-color: rgb(30, 68, 91);
+}
+.despl:hover {
+    color: rgb(176, 176, 176) !important;
+}
+.row {
+    align-items: center;
+}
+footer {
+    margin-top: auto;
+    height: 19vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer :hover{
+    color: gray;
+}
+
+
+
+@media screen and (max-width: 499px){
+    .body {
+        position: absolute;
+        height: 420vh;
+    }
+    .head_Padre {
+        position: relative;
+        flex-direction: column;
+        height: auto;
+    }
+    .posicion {
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .h1 {
+        font-size: 1.2rem;
+        width: 80%;
+        text-align: center;
+    }
+    .parrafo {
+        font-size: 0.7rem;
+    }
+    .links {
+        width: 80% !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .link1, .link2 {
+        padding: 2px !important;
+        font-size: 0.8rem;
+        margin-left: initial;
+    }
+    .link1 {
+        border: 1px solid #fff;
+        font-size: 0.8rem;
+        margin-right: 1rem;
+    }
+    .link2 {
+        background-color: rgb(41, 167, 68);
+    }
+
+    /* Section Imagen de Fondo y Parrafo*/
+    .sectionImgFondo {
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        background-attachment: initial;
+    }
+    .carousel-item {
+        height: 52vh;
+    }
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .brillo {
+        height: 52vh;
+    }
+    .h1, .parrafo, .links {
+        backdrop-filter: blur(2px);
+    }
+    .h1 {
+        font-size: 1rem;
+        margin-right: initial;
+    }
+    .parrafo {
+        width: 80%;
+        color: #fff;
+        font-size: 0.7rem;
+        line-height: 15px;
+        text-align: center;
+        margin-right: initial;
+    }
+    .links {
+        width: 50%;
+        height: 6%;
+        justify-content: center;
+        margin-right: initial;
+        margin-top: 10px;
+    }
+    .link1 {
+        font-size: 0.7rem;
+        padding: initial;
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+    }
+    .posicion {
+        width: 80%;
+        top: 0;
+        left: 20%;
+        font-size: 1rem;
+    }
+
+    /* Seccion Tarjetas */
+    .sectionTarjetas {
+        height: 200vh;
+    }
+    .caja_vacia {
+        background-color: initial;
+        width: initial;
+        height: initial;
+        top: initial;
+    }
+    .tituloTarjeta {
+        align-items: center;
+        height: 5%;
+        padding-top: initial;
+    }
+    .tarjetas_flex {
+        flex-direction: column;
+        flex-flow: column;
+        width: 95%;
+        height: 185vh;
+        margin-top: initial;
+    }
+    .tarjeta1, .tarjeta2, .tarjeta3 {
+        width: 95%;
+        height: 65vh;
+        margin-bottom: 1rem;
+        margin-right: 0;
+        box-shadow: -7px 0px 14px 6px rgba(0,0,0,0.48);
+        -webkit-box-shadow: -7px 0px 14px 6px rgba(0,0,0,0.48);
+        -moz-box-shadow: -7px 0px 14px 6px rgba(0,0,0,0.48);
+        flex-direction: column;
+    }
+    .img {
+        width: 100%;
+        height: auto;
+        border-radius: 2px;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .tarjetaContenido {
+        padding: 0.5rem;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+    }
+    .anclaTitulo {
+        text-align: left;
+    }
+    .linkTitulo1, .linkTitulo2, .linkTitulo3, .linkTitulo4 {
+        text-decoration: none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: rgb(32, 37, 41);
+        padding: 1px 2px;
+        background-color: rgb(255, 192, 6);
+        border-radius: 4px;
+    }
+    .linkTitulo2 {
+        color: #fff;
+        background-color:rgb(25, 161, 185);
+    }
+    .linkTitulo3 {
+        background-color: rgb(109, 118, 127);
+        color: #fff;
+    }
+    .linkTitulo4 {
+        background-color: rgb(223, 53, 66);
+        color: #fff;
+    }
+    .titulo_oradores {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.2rem;
+        color: rgb(30, 38, 40);
+    }
+    .tarjetaParrafo {
+        width: 100%;
+        text-align: center;
+        font-size: 0.8rem;
+        padding-top: 0.2rem;
+    }
+    .parrafo_oradores {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        color: rgb(42, 42, 42);
+        line-height: 15px;
+    }
+
+    
+    /* seccion imagen 50y 50 */
+     .section50 {
+        height: 60vh;
+    }
+    .caja_vacia50 {
+        width: initial;
+        height: initial;
+        background-color: initial;
+    }
+    .container50 {
+        flex-direction: column;
+    }
+    .imagenTexto {
+        height: 60vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img_50 {
+        width: 100%;
+        height: 30vh;
+        flex-direction: column;
+        border: initial;
+    }
+    .texto_50 {
+        width: 100%;
+        height: 40%;
+        align-items: center;
+        border: initial;
+        padding-top: 3rem;
+    }
+    .h4texto{
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .parrafo2 {
+        line-height: 20px;
+    }
+    .en {
+        width: 25%;
+        padding: 4px 4px;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+
+    /* Seccion Formulario */
+     .sectionForm {
+        position: relative;
+        height: 52vh;
+    }
+    .caja_vaciaForm {
+        width: initial;
+        height: initial;
+        background-color: initial;
+    }
+    .contenedorInterno {
+        height: 40%;
+    }
+    .tituloFormulario {
+        height: 50vh;
+        padding-top: 1px;
+        margin-top: 0.5rem;
+    }
+    .texto1 {
+        padding: 1px;
+    }
+    .texto3 {
+        width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    .Formulario {
+        height: 60vh;
+        margin-top: 0;
+    }
+    .formHijo1 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nombre, .apellido {
+        width: 90%;
+        margin-top: 10px;
+        padding: 7px;
+        font-size: 0.8rem;
+    }
+    .nombre {
+        margin-right: initial;
+    }
+    .formHijo2 {
+        width: 90%;
+    }
+    .text {
+        padding: 7px;
+        font-size: 0.8rem;
+    }
+    .recorda {
+        font-size: 0.8rem;
+        margin-top: 5px;
+        color: grey;
+    }
+    .enviar {
+        padding: 5px;
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+    .row {
+        align-items: center;
+    }
+    .colorFooter {
+        margin-top: auto;
+    }
+    .row {
+        margin-right: 0;
+    }
+    .pt-4 {
+        padding-top: 2px !important;
+    }
+    .pb-4 {
+        padding-bottom: 2px !important;
+    }
+    .fuente {
+        font-size: 0.9rem !important;
+    }
+}
+
+
+
+/* Media Query para Tablet */
+@media screen and (min-width: 500px) and (max-width:900px){
+    .body {
+        height: 430vh;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .head_Padre {
+        position: relative;
+        flex-direction: column;
+        height: auto;
+    }
+
+
+    /* Section Imagen de Fondo y Parrafo*/
+    .sectionImgFondo {
+        position: relative;
+        align-items: center;
+        height: 42vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: initial;
+    }
+    .carousel-item {
+        height: 46vh;
+    }
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .brillo {
+        height: 46vh;
+    }
+    .h1, .parrafo, .links {
+        backdrop-filter: blur(2px);
+        text-align: center;
+    }
+    .h1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+        margin-right: initial;
+        text-align: center;
+    }
+    .posicion {
+        width: 70%;
+        top: 12%;
+        left: 15%;
+        font-size: 1rem;
+    }
+    .parrafo {
+        width: 100%;
+        color: #fff;
+        font-size: 0.9rem;
+        line-height: 15px;
+        text-align: center;
+        margin-right: initial;
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .link1, .link2 {
+        width: 35%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+        padding: 2px;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-left: 1rem;
+    }
+    
+    /* Seccion Tarjetas */
+    .sectionTarjetas {
+        position: relative;
+        height: 180vh;
+    }
+    .caja_vacia {
+        background-color: initial;
+        width: initial;
+        height: initial;
+        top: initial;
+    }
+    .tituloTarjeta {
+        align-items: center;
+        height: 8%;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .h6tarjeta {
+        margin-top: 0;
+        font-size: 0.9rem;
+    }
+    .h2tarjeta {
+        font-size: 2.3rem;
+    }
+    .tarjetas_flex {
+        flex-direction: column;
+        flex-flow: column;
+        width: 90%;
+        height: 150vh;
+    }
+    .tarjeta1, .tarjeta2, .tarjeta3 {
+        width: 100%;
+        height: 45vh;
+        margin-bottom: 0;
+        margin-right: 0;
+        box-shadow: -7px 0px 14px 6px rgba(0,0,0,0.48);
+        -webkit-box-shadow: -7px 0px 14px 6px rgba(0,0,0,0.48);
+        -moz-box-shadow: -7px 0px 14px 6px rgba(0,0,0,0.48);
+        flex-direction: row;
+        margin-bottom: 1rem;
+    }
+    .img {
+        width: 50%;
+        height: auto;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+    }
+    .tarjetaContenido {
+        padding: rem;
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+    }
+    .anclaTitulo {
+        text-align: left;
+    }
+    .linkTitulo1, .linkTitulo2, .linkTitulo3, .linkTitulo4 {
+        text-decoration: none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: rgb(32, 37, 41);
+        padding: 1px 2px;
+        background-color: rgb(255, 192, 6);
+        border-radius: 4px;
+    }
+    .linkTitulo2 {
+        color: #fff;
+        background-color:rgb(25, 161, 185);
+    }
+    .linkTitulo3 {
+        background-color: rgb(109, 118, 127);
+        color: #fff;
+    }
+    .linkTitulo4 {
+        background-color: rgb(223, 53, 66);
+        color: #fff;
+    }
+    .titulo_oradores {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.2rem;
+        color: rgb(30, 38, 40);
+    }
+    .tarjetaParrafo {
+        width: 100%;
+        text-align: justify;
+        font-size: 0.7rem;
+        padding-top: 0.2rem;
+    }
+    .parrafo_oradores {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        color: rgb(42, 42, 42);
+        line-height: 18px;
+    }
+
+    
+    /* seccion imagen 50y 50 */
+     .section50 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        height: 60vh;
+        background-color: rgb(106, 87, 233);
+    }
+    .caja_vacia50 {
+        width: initial;
+        height: initial;
+        background-color: initial;
+    }
+    .imagenTexto {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img_50 {
+        width: 100%;
+        height: 60vh;
+        flex-direction: column;
+        border: initial;
+        margin-top: 0;
+    }
+    .texto_50 {
+        width: 100%;
+        height: 60vh;
+        align-items: center;
+        border: initial;
+    }
+    .h4texto{
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .parrafo2 {
+        font-size: 0.7rem;
+        line-height: 20px;
+    }
+    .en {
+        width: 40%;
+        padding: 2px 2px;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .tabla {
+        margin-top: 1rem;
+    }
+
+
+    /* Seccion Formulario */
+     .sectionForm {
+        position: relative;
+        height: 57vh;
+    }
+    .caja_vaciaForm {
+        width: initial;
+        height: initial;
+        background-color: initial;
+    }
+    .contenedorInterno {
+        height: 40%;
+    }
+    .tituloFormulario {
+        height: 50vh;
+        padding-top: 1px;
+        margin-top: 0.5rem;
+    }
+    .texto1 {
+        padding: 1px;
+    }
+    .texto3 {
+        width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+        margin: 0;
+    }
+    .Formulario {
+        height: 60vh;
+        margin-top: 0.4rem;
+    }
+    .formHijo1 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nombre, .apellido {
+        width: 90%;
+        margin-top: 10px;
+        padding: 7px;
+        font-size: 0.8rem;
+    }
+    .nombre {
+        margin-right: initial;
+    }
+    .formHijo2 {
+        width: 90%;
+    }
+    .text {
+        padding: 7px;
+        font-size: 0.8rem;
+    }
+    .recorda {
+        font-size: 0.8rem;
+        margin-top: 5px;
+        color: grey;
+    }
+    .enviar {
+        padding: 5px;
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+    .colorFooter {
+        height: 25vh;
+        margin-top: auto;
+    }
+    .pt-4 {
+        padding-top: 0 !important;
+    }
+    .pb-4 {
+        padding-bottom: 0 !important;
+    }
+}
+
+
+
+@media screen and (min-width: 901px) and (max-width:1200px){
+    .body {
+        height: 400vh;
+    }
+
+    .sectionImgFondo {
+        height: 79vh;
+    }
+    .carousel-item {
+        height: 79vh;
+    }
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .brillo {
+        height: 79vh;
+    }
+    .posicion {
+        top: 30%;
+        left: 35%;
+    }
+    .h1, .parrafo, .links {
+        text-align: center;
+    }
+
+    .sectionTarjetas {
+        height: 115vh;
+    }
+    .caja_vacia {
+        margin-bottom: 1rem;
+    }
+    .tituloTarjeta {
+        height: 9%;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .tarjetas_flex {
+        width: 90%;
+        height: 88vh;
+    }
+    .tarjetaContenido {
+        width: 100%;
+    }
+    .tarjeta1, .tarjeta2, .tarjeta3 {
+        height: 82vh;
+        margin-bottom: 0;
+        font-size: 0.7rem;
+        line-height: 10px;
+        padding-top: 0;
+    }
+    .img {
+        height: 40vh;
+    }
+    .parrafo_oradores {
+        line-height: 18px;
+    }
+
+    .section50 {
+        height: 66vh;
+    }
+    .container50 {
+        height: 60vh;
+    }
+    .img_50 {
+        height: 60vh;
+    }
+    .texto_50 {
+        height: 60vh;
+    }
+    .en {
+        width: 25%;
+        padding: 2px;
+    }
+    .tabla {
+        margin-top: 1rem;
+    }
+
+
+    .sectionForm {
+        position: relative;
+        height: 68vh;
+    }
+    .Formulario {
+        height: 60vh;
+    }
+    .tituloFormulario {
+        height: 26vh;
+    }
+    .recorda {
+        margin-bottom: 0.5rem;
+    }
+    .enviar {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .colorFooter {
+        margin-top: auto;
+    }
+    .row {
+        flex-wrap: nowrap;
+    }
+    .fuente {
+        font-size: 0.8rem;
+        padding-top: initial;
+        padding-bottom: initial;
+    }
+}
+
+
+@media screen and (min-width: 1201px) and (max-width:1500px){
+    .body {
+        height: 446vh;
+    }
+    .posicion {
+        width: 41%;
+        top: 40%;
+        left: 50%;
+        /* margin-right: 3rem; */
+    }
+    .sectionTarjetas {
+        height: 130vh;
+    }
+    .caja_vacia {
+        height: 16vh;
+    }
+    .tituloTarjeta {
+    }
+    .tarjetas_flex {
+        height: 98vh;
+    }
+    .tarjeta1, .tarjeta2, .tarjeta3 {
+        height: 90vh;
+    }
+    .parrafo_oradores {
+        line-height: 1.3rem;
+    }
+
+    .section50 {
+        height: 75vh;;
+    }
+    .caja_vacia50 {
+        height: 16vh;
+    }
+    .en {
+        width: 20%;
+        padding: 2px;
+    }
+
+
+    .sectionForm {
+        height: 80vh;
+    }
+    .tituloFormulario {
+        height: 26vh;
+    }
+    .Formulario {
+        margin-top: 0;
+    }
+
+}
